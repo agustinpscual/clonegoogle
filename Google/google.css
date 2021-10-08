@@ -1,0 +1,139 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+header {
+    width: 100%;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+header a {
+    color: #000000DE;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    margin-right: 16px;
+    margin-top: 16px;
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+
+#menu {
+    width: 20px;
+    height: 20px;
+    margin-top: 12px;
+    margin-right: 16px;
+}
+
+#profile {
+    height: 32px;
+    width: 32px;
+    margin-top: 8px;
+    margin-right: 16px;
+    border-radius: 50%;
+}
+
+#imagem-google{
+    height: 97px;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+   
+}
+
+main#principal{
+    display: flex;
+    flex-direction: column ;
+}
+
+main#principal div#input{
+    height: 46px;
+    width: 582px;
+    border: 1px solid #ccc;
+    border-radius: 24px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 14px;
+    padding-right: 14px;
+
+}
+
+main#principal div#input:hover{
+    border: 1px solid #fff;
+    box-shadow: 0px 0px 4px 0px #555;
+
+
+}
+
+.img{
+    width: 20px;
+    height: 20px;
+    margin-top: 12px;
+   
+}
+
+
+main#principal div#input input{
+    border: 0px;
+    width: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: 0;
+}
+
+main#principal aside#botoes{
+    margin: 0px auto;
+    
+}
+
+aside#botoes button{
+    background: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    
+}
+header2 {
+    width: 100%;
+    height: 50px;
+    margin-top: 17.8%;    
+    display: flex;
+    background-color: #e2e2e2;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+header2 b {
+    color: #b3b2b2;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    margin-right: 40%;
+    margin-left: 14%;
+    margin-top: 10%;
+    
+}
+header2 b:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
